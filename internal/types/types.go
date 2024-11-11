@@ -169,8 +169,9 @@ type Query struct {
 	Conditions []Condition
 	Joins      []Join
 	OrderBy    []OrderByClause
-	Limit      int
-	Offset     int
+	// GroupBy []string
+	Limit  int
+	Offset int
 }
 
 // Condition represents a WHERE clause condition
